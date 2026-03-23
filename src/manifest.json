@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "Security Deadlines Tab",
+  "version": "0.1.0",
+  "description": "Open Security Deadlines in a Thunderbird Tab",
+  "author": "CSendner",
+  "homepage_url": "https://github.com/CSendner/it-sec-deadlines-tab",
+  "applications": {
+    "gecko": {
+        "id": "sec-deadlines-tab@CSendner",
+        "strict_min_version": "78.0"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Security Deadlines",
+    "default_icon": {
+      "16": "images/1531728140.svg",
+      "32": "images/1531728140.svg",
+      "64": "images/1531728140.svg",
+      "128": "images/1531728140.svg",
+      "512": "images/1531728140.svg"
+    }
+  },
+  "developer": {
+    "name": "CSendner",
+    "url": "https://github.com/CSendner/"
+  },  
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "cookies"
+  ],
+  "icons": {
+    "16": "images/1531728140.svg",
+    "32": "images/1531728140.svg",
+    "64": "images/1531728140.svg",
+    "128": "images/1531728140.svg",
+    "512": "images/1531728140.svg"
+  }
+}
